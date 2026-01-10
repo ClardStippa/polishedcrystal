@@ -88,8 +88,8 @@ LyraPhoneEndText:
 	line "to catch up with"
 	cont "you, <PLAYER>."
 
-	para "Call me again"
-	line "sometime!"
+	para "I love you,"
+	line "I guessss."
 	done
 
 LyraPhoneSpecialText_YellowForest:
