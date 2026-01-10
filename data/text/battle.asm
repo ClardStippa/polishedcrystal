@@ -1647,7 +1647,7 @@ GetOutText:
 CarrieFinalPkmnText:
 CalFinalPkmnText:
 JackyFinalPkmnText:
-	text "I still have one"
+	text "Dinkin' Flicka"
 	line "#mon!"
 	prompt
 
