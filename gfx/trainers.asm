@@ -3,14 +3,14 @@ SECTION "Trainer Pic Pointers", ROMX
 INCLUDE "data/trainers/pic_pointers.asm"
 
 
-SECTION "CarriePic", ROMX
-CarriePic: INCBIN "gfx/trainers/carrie.2bpp.lz"
+SECTION "AmeliaPic", ROMX
+AmeliaPic: INCBIN "gfx/trainers/amelia.2bpp.lz"
 
-SECTION "CalPic", ROMX
-CalPic: INCBIN "gfx/trainers/cal.2bpp.lz"
+SECTION "AlexPic", ROMX
+AlexPic: INCBIN "gfx/trainers/alex.2bpp.lz"
 
-SECTION "JackyPic", ROMX
-JackyPic: INCBIN "gfx/trainers/jacky.2bpp.lz"
+SECTION "ArbyPic", ROMX
+ArbyPic: INCBIN "gfx/trainers/arby.2bpp.lz"
 
 SECTION "FalknerPic", ROMX
 FalknerPic: INCBIN "gfx/trainers/falkner.2bpp.lz"
