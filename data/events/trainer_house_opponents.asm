@@ -5,6 +5,6 @@ DailyTrainerHouseOpponents:
 	db AMELIA,   1
 	db ARBY,    1
 	; based on http://bulbapedia.bulbagarden.net/wiki/The_Legendary_Rotation_Battle!
-	db VETERANM, CHAMPION_GIBSON
+	db VETERANM, GIBSON
 	db VETERANF, MADOKA
 	assert_table_length NUM_TRAINER_HOUSE_OPPONENTS
