@@ -1,8 +1,8 @@
 TrainerClassNames::
 	list_start
-	li "<PK><MN> Trainer" ; CARRIE
-	li "<PK><MN> Trainer" ; CAL
-	li "<PK><MN> Trainer" ; JACKY
+	li "<PK><MN> Trainer" ; AMELIA
+	li "<PK><MN> Trainer" ; ALEX
+	li "<PK><MN> Trainer" ; ARBY
 	li "Leader"           ; FALKNER
 	li "Leader"           ; BUGSY
 	li "Leader"           ; WHITNEY
