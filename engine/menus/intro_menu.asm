@@ -1037,15 +1037,15 @@ DrawIntroPlayerPic:
 	xor a
 	ld [wCurPartySpecies], a
 	ld a, [wPlayerGender]
-	ld b, CAL
+	ld b, ALEX
 	and a ; PLAYER_MALE
 	jr z, .ok
-	assert CAL - 1 == CARRIE
+	assert ALEX - 1 == AMELIA
 	dec b
 	dec a ; PLAYER_FEMALE
 	jr z, .ok
 	; PLAYER_ENBY
-	ld b, JACKY
+	ld b, ARBY
 .ok
 	ld a, b
 	ld [wTrainerClass], a
