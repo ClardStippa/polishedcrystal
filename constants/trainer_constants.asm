@@ -1026,7 +1026,7 @@ DEF CRYS EQU __trainer_class__
 	const MATT
 	const REMY
 	const BARKHORN
-	const CHAMPION_GIBSON
+	const GIBSON
 
 	trainerclass VETERANF ; 68
 	const JOANNE
