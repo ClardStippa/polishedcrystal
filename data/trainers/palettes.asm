@@ -4,11 +4,11 @@ TrainerPalettes:
 
 if !DEF(MONOCHROME)
 KrisPalette:
-INCLUDE "gfx/trainers/carrie.pal"
+INCLUDE "gfx/trainers/amelia.pal"
 ChrisPalette:
-INCLUDE "gfx/trainers/cal.pal"
+INCLUDE "gfx/trainers/alex.pal"
 CrysPalette:
-INCLUDE "gfx/trainers/jacky.pal"
+INCLUDE "gfx/trainers/arby.pal"
 INCLUDE "gfx/trainers/falkner.pal"
 INCLUDE "gfx/trainers/bugsy.pal"
 INCLUDE "gfx/trainers/whitney.pal"
