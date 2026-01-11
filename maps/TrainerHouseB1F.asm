@@ -43,9 +43,9 @@ TrainerHouseB1FCallback:
 	farjp LoadTrainerSpriteAsMapObject1
 
 .IsOpponentValid:
-	cp OPP_EN
+	cp OPP_GIBSON
 	jr nz, .not_en
-	; must have caught all three legendary birds to battle En
+	; must have caught all three legendary birds to battle Gibson
 	farjp SpecialBirdsCheck
 .not_en
 	cp OPP_MADOKA
