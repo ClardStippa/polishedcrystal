@@ -364,7 +364,7 @@ DEF CRYS EQU __trainer_class__
 	const BRANDON
 	const JEREMY
 	const COLIN
-	const ALEX
+	const BON
 	const REX
 	const ALLAN
 
@@ -1026,7 +1026,7 @@ DEF CRYS EQU __trainer_class__
 	const MATT
 	const REMY
 	const BARKHORN
-	const CHAMPION GIBSON
+	const CHAMPION_GIBSON
 
 	trainerclass VETERANF ; 68
 	const JOANNE
