@@ -36,13 +36,13 @@ ENDM
 DEF NUM_NONTRAINER_PHONECONTACTS EQU const_value - 1
 
 DEF KRIS EQU __trainer_class__
-	trainerclass CARRIE ; 1
+	trainerclass AMELIA ; 1
 
 DEF CHRIS EQU __trainer_class__
-	trainerclass CAL ; 2
+	trainerclass ALEX ; 2
 
 DEF CRYS EQU __trainer_class__
-	trainerclass JACKY ; 3
+	trainerclass ARBY ; 3
 
 	trainerclass FALKNER ; 4
 
@@ -1026,7 +1026,7 @@ DEF CRYS EQU __trainer_class__
 	const MATT
 	const REMY
 	const BARKHORN
-	const EN
+	const CHAMPION GIBSON
 
 	trainerclass VETERANF ; 68
 	const JOANNE
