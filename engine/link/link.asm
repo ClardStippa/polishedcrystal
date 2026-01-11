@@ -230,12 +230,12 @@ Gen2ToGen2LinkComms:
 	ld b, CAL
 	and a ; PLAYER_MALE
 	jr z, .got_other_gender
-	assert CAL - 1 == CARRIE
+	assert ALEX - 1 == AMELIA
 	dec b
 	dec a ; PLAYER_FEMALE
 	jr z, .got_other_gender
 	; PLAYER_ENBY
-	ld b, JACKY
+	ld b, ARBY
 .got_other_gender
 	ld a, b
 	ld [wOtherTrainerClass], a
