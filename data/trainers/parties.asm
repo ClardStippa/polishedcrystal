@@ -22,7 +22,7 @@ AmeliaGroup:
 
 	def_trainer_class AMELIA
 	def_trainer 1, "Amelia"
-	tr_mon 100, BUTTERFREE @ FOCUS_SASH
+	tr_mon 100, BUTTERFREE, FEMALE @ FOCUS_SASH
 		tr_extra COMPOUND_EYES, SHINY
 		tr_moves SLEEP_POWDER, DREAM_EATER, BUG_BUZZ, U_TURN
 	tr_mon 100, STARMIE @ SHELL_BELL
