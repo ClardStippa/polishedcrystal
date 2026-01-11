@@ -3072,7 +3072,7 @@ PokefanMGroup:
 	tr_mon 49, DELIBIRD @ SITRUS_BERRY
 	end_trainer
 
-	def_trainer ALEX, "Alex"
+	def_trainer BON, "Bon"
 	tr_mon 56, NIDOKING @ KINGS_ROCK
 	tr_mon 56, SLOWKING @ KINGS_ROCK
 	tr_mon 56, SEAKING @ KINGS_ROCK
@@ -6552,7 +6552,7 @@ endc
 	tr_mon 100, ENTEI @ MENTAL_HERB
 		tr_extra INNERFOCUS
 		tr_moves SACRED_FIRE, IRON_HEAD, SOLAR_BEAM, EXTREMESPEED
-	tr_mon 100, MOLTRES @ FOCUS SASH | GALARIAN_FORM
+	tr_mon 100, MOLTRES @ FOCUS_SASH | GALARIAN_FORM
 		tr_extra BERSERK
 		tr_moves NASTY_PLOT, DARK_PULSE, AIR_SLASH, ROAR
 	tr_mon 100, DITTO @ WEAK_POLICY
