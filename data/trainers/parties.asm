@@ -17,10 +17,10 @@ INCLUDE "data/trainers/macros.asm"
 
 	def_trainer_class TRAINER_NONE
 
-SECTION "CarrieGroup", ROMX
-CarrieGroup:
+SECTION "AmeliaGroup", ROMX
+AmeliaGroup:
 
-	def_trainer_class CARRIE
+	def_trainer_class AMELIA
 	def_trainer 1, "Amelia"
 	tr_mon 100, BUTTERFREE @ FOCUS_SASH
 		tr_extra COMPOUND_EYES, SHINY
@@ -43,10 +43,10 @@ CarrieGroup:
 	end_trainer
 
 
-SECTION "CalGroup", ROMX
-CalGroup:
+SECTION "AlexGroup", ROMX
+AlexGroup:
 
-	def_trainer_class CAL
+	def_trainer_class ALEX
 	def_trainer 1, "Alex"
 	tr_mon 100, RAICHU @ LIGHT_CLAY | ALOLAN_FORM
 		tr_extra STATIC, SHINY
@@ -69,10 +69,10 @@ CalGroup:
 	end_trainer
 
 
-SECTION "JackyGroup", ROMX
-JackyGroup:
+SECTION "ArbyGroup", ROMX
+ArbyGroup:
 
-	def_trainer_class JACKY
+	def_trainer_class ARBY
 	def_trainer 1, "Arby"
 	tr_mon 100, VENUSAUR @ FOCUS_SASH
 		tr_extra THICK_FAT
