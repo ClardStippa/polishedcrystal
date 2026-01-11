@@ -352,10 +352,10 @@ DEF NUM_PAINTINGS EQU const_value
 
 ; DailyTrainerHouseOpponents indexes (see data/events/trainer_house_opponents.asm)
 	const_def 1
-	const OPP_CAL
-	const OPP_CARRIE
-	const OPP_JACKY
-	const OPP_EN
+	const OPP_ALEX
+	const OPP_AMELIA
+	const OPP_ARBY
+	const OPP_GIBSON
 	const OPP_MADOKA
 DEF NUM_TRAINER_HOUSE_OPPONENTS EQU const_value - 1
 DEF TRAINER_HOUSE_OPPONENT_SIZE EQU 2 ; class, id
