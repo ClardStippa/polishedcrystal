@@ -6539,7 +6539,7 @@ endc
 		tr_moves TOXIC, CONFUSE_RAY, FEINT_ATTACK, PROTECT
 	end_trainer
 
-	def_trainer GIBSON, "Champion Gibson"
+	def_trainer CHAMPION_GIBSON, "Champion Gibson"
 	tr_mon 100, JOLTEON @ LUM_BERRY, MALE
 		tr_extra STATIC
 		tr_moves THUNDERBOLT, BATON_PASS, AGILITY, HEAL_BELL
