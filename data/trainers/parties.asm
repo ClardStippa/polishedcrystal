@@ -48,7 +48,7 @@ AlexGroup:
 
 	def_trainer_class ALEX
 	def_trainer 1, "Alex"
-	tr_mon 100, RAICHU @ LIGHT_CLAY | ALOLAN_FORM
+	tr_mon 100, RAICHU @ LIGHT_CLAY, MALE | ALOLAN_FORM
 		tr_extra STATIC, SHINY
 		tr_moves VOLT_SWITCH, SURF, PSYCHIC, REFLECT
 	tr_mon 100, ARCANINE @ LOADED_DICE | HISUIAN_FORM
