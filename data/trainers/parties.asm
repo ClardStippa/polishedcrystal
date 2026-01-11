@@ -22,7 +22,7 @@ AmeliaGroup:
 
 	def_trainer_class AMELIA
 	def_trainer 1, "Amelia"
-	tr_mon 100, BUTTERFREE @ FOCUS_SASH, MALE
+	tr_mon 100, BUTTERFREE @ FOCUS_SASH, FEMALE
 		tr_extra COMPOUND_EYES, SHINY
 		tr_moves SLEEP_POWDER, DREAM_EATER, BUG_BUZZ, U_TURN
 	tr_mon 100, STARMIE @ SHELL_BELL
@@ -74,7 +74,7 @@ ArbyGroup:
 
 	def_trainer_class ARBY
 	def_trainer 1, "Arby"
-	tr_mon 100, VENUSAUR @ FOCUS_SASH
+	tr_mon 100, VENUSAUR @ FOCUS_SASH, MALE
 		tr_extra THICK_FAT
 		tr_moves STUN_SPORE, PETAL_DANCE, SLUDGE_BOMB, GROWTH
 	tr_mon 100, BLASTOISE @ QUICK_CLAW
@@ -6540,7 +6540,7 @@ endc
 	end_trainer
 
 	def_trainer GIBSON, "Champion Gibson"
-	tr_mon 100, JOLTEON @ LUM_BERRY
+	tr_mon 100, JOLTEON @ LUM_BERRY, MALE
 		tr_extra STATIC
 		tr_moves THUNDERBOLT, BATON_PASS, AGILITY, HEAL_BELL
 	tr_mon 100, TYRANITAR @ LOADED_DICE
