@@ -227,7 +227,7 @@ Gen2ToGen2LinkComms:
 	cp LINK_COLOSSEUM
 	jr nz, .ready_to_trade
 	ld a, [wLinkOtherPlayerGender]
-	ld b, CAL
+	ld b, ALEX
 	and a ; PLAYER_MALE
 	jr z, .got_other_gender
 	assert ALEX - 1 == AMELIA
