@@ -74,7 +74,7 @@ ArbyGroup:
 
 	def_trainer_class ARBY
 	def_trainer 1, "Arby"
-	tr_mon 100, JOLTEON @ METRONOME
+	tr_mon 100, JOLTEON @ METRONOME, MALE
 		tr_extra QUICK_FEET
 		tr_moves AGILITY, BATON_PASS, SPARK, EARTH_POWER
 	tr_mon 100, VENUSAUR @ FOCUS_SASH, MALE
