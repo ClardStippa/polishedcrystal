@@ -44,15 +44,15 @@ TrainerHouseB1FCallback:
 
 .IsOpponentValid:
 	cp OPP_GIBSON
-	jr nz, .not_en
+	jr nz, .not_gibson
 	; must have caught all three legendary birds to battle Gibson
 	farjp SpecialBirdsCheck
 .not_en
-	cp OPP_MADOKA
-	jr nz, .not_madoka
-	; must have caught all three legendary beasts to battle Madoka
+	cp OPP_TUBS
+	jr nz, .not_tubs
+	; must have caught all three legendary beasts to battle Tubs
 	farjp SpecialBeastsCheck
-.not_madoka
+.not_tubs
 	ld a, TRUE
 	ret
 
