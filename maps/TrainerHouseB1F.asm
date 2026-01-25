@@ -47,7 +47,7 @@ TrainerHouseB1FCallback:
 	jr nz, .not_gibson
 	; must have caught all three legendary birds to battle Gibson
 	farjp SpecialBirdsCheck
-.not_en
+.not_gibson
 	cp OPP_TUBS
 	jr nz, .not_tubs
 	; must have caught all three legendary beasts to battle Tubs
