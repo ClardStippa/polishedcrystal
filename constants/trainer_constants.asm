@@ -1032,7 +1032,7 @@ DEF CRYS EQU __trainer_class__
 	const JOANNE
 	const JONET
 	const LITVYAK
-	const MADOKA
+	const TUBS
 
 	trainerclass PROTON ; 69
 	const PROTON1
