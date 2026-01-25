@@ -48,7 +48,7 @@ AlexGroup:
 
 	def_trainer_class ALEX
 	def_trainer 1, "Alex"
-	tr_mon 100, MISMAGIUS @ CHOICE_SPECS
+	tr_mon 100, MISMAGIUS @ CHOICE_SPECS, FEMALE
 		tr_extra LEVITATE
 		tr_moves TRICK, WILL_O_WISP, HEX, DAZZLINGLEAM
 	tr_mon 100, RAICHU @ LIGHT_CLAY, MALE | ALOLAN_FORM
