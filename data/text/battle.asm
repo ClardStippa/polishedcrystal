@@ -1644,11 +1644,11 @@ GetOutText:
 	line "Get out…"
 	prompt
 
-CarrieFinalPkmnText:
-CalFinalPkmnText:
-JackyFinalPkmnText:
+AmeliaFinalPkmnText:
+AlexFinalPkmnText:
+ArbyFinalPkmnText:
 	text "Dinkin' Flicka"
-	line "#mon!"
+	line "Son!"
 	prompt
 
 FalknerFinalPkmnText:
